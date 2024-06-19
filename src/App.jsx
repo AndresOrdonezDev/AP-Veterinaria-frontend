@@ -32,7 +32,7 @@ function App() {
               <Route path='olvide-password' element={<OlvidePassword />} />
               <Route path='olvide-password/:token' element={<NuevoPassword />} />
             </Route>
-
+            
             {/* rutas de administración */}
 
             <Route path='/admin' element={<RutaProtegida />}>
